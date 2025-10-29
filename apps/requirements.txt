@@ -1,0 +1,28 @@
+# Streamlit
+streamlit==1.31.0
+
+# Azure SDK
+azure-search-documents==11.4.0
+azure-core==1.29.5
+azure-identity==1.15.0
+
+# OpenAI
+openai==1.12.0
+
+# Environment Variables
+python-dotenv==1.0.0
+
+# PDF Generation
+reportlab==4.0.9
+
+# Word Document Generation
+python-docx==1.1.0
+
+# PowerPoint Generation
+python-pptx==0.6.23
+
+# Required for ReportLab (Pillow for image handling)
+Pillow==10.2.0
+
+# Additional dependencies that might be needed
+typing-extensions==4.9.0
