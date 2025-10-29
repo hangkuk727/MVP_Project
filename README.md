@@ -2,7 +2,6 @@
 KTds MS AI 과정 7기를 위한 repository 입니다.
 
 
-KTds MS AI 과정 7기를 위한 repository fsfdsaf
 # TEST 야..
 
 ![mcp image](./pcp.png)
