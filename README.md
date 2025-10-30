@@ -12,9 +12,9 @@ MVP 과제명 : 신규 사업 추천 및 보고서 작성 도우미
 ### 1.2 주요 기술 스택
 - **프론트엔드**: Streamlit
 - **검색 엔진**: Azure AI Search
-  . 자원 이름 : pro-khk-search-v01
-  . RAG 검색 용도 
-  . 인덱스 및 skillset 추가 등
+  - 자원 이름 : pro-khk-search-v01,
+  - RAG 검색 용도 
+  - 인덱스 및 skillset 추가 등
 - **AI 모델**: Azure OpenAI (GPT)
   **AI 서비스** : Azure AI Service (
 - **문서 생성**: ReportLab (PDF), python-docx (Word), python-pptx (PowerPoint)
