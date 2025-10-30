@@ -3,6 +3,9 @@
 - **작성자**     : AI구독서비스팀 김형국
 - **Azure Resource 그룹** : pro-khk-rg 
 
+### Azure App Service 링크
+[https://pro-khk-webapp-v01-hjaycdfgbefjdmh8.eastus2-01.azurewebsites.net/](https://pro-khk-webapp-v01-hjaycdfgbefjdmh8.eastus2-01.azurewebsites.net/)
+
  # 신규 사업 추천 및 보고서 작성 도우미 - 기능명세서
 
 ## 1. 시스템 개요
@@ -392,5 +395,3 @@ AZURE_OPENAI_ENDPOINT     # OpenAI 엔드포인트
 - AI 기반 경쟁사 모니터링
 - 자동 업데이트 및 알림 기능
 
-### Azure App Service 링크
-[MAzure App Service 링크](https://pro-khk-webapp-v01-hjaycdfgbefjdmh8.eastus2-01.azurewebsites.net/)
