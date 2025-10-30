@@ -1,6 +1,7 @@
 # MVP_Project - by AI구독서비스팀 김형국
 MVP 과제명 : 신규 사업 추천 및 보고서 작성 도우미
 작성자 : AI구독서비스팀 김형국
+Azure Resource 그룹 : pro-khk-rg 
 
  # 신규 사업 추천 및 보고서 작성 도우미 - 기능명세서
 
@@ -10,16 +11,31 @@ MVP 과제명 : 신규 사업 추천 및 보고서 작성 도우미
 사용자가 입력한 키워드를 기반으로 RAG(Retrieval-Augmented Generation) 검색을 수행하고, AI를 활용하여 유망 산업군을 추천하며, 선택된 산업에 대한 종합 시장 분석 보고서를 자동 생성하는 시스템
 
 ### 1.2 주요 기술 스택
-- **프론트엔드**: Streamlit
+- **프론트엔드**: 
+   - Streamlit 기반 Web UI 개발
+   - 문서 생성 : ReportLab (PDF), python-docx (Word), python-pptx (PowerPoint)
+- **WEBAPP**: Azure WebApp
+   - 자원 이름 : pro-khk-webapp-v01
+   - WEB 배포 자원
+   - VS Code 기반 배포 및 startup.sh 구성 
 - **검색 엔진**: Azure AI Search
-  - 자원 이름 : pro-khk-search-v01,
+  - 자원 이름 : pro-khk-search-v01
   - RAG 검색 용도 
-  - 인덱스 및 skillset 추가 등
+  - 인덱스 생성 시 번역 기술, 엔터티 인식 기술(V3) skillset을 추가 
+- **스토리지 계정**: Azure Storage Account
+  - 자원 이름 : khkstorageacc 
+  - RAG를 위한 스토리지 계정, 
+  - "weekyreports" 컨테이너에 정보통신기획 평가원의 "주간기술동향" 문서 및 시장 동향 자료 구축 (총 23개 문서)
 - **AI 모델**: Azure OpenAI (GPT)
-  **AI 서비스** : Azure AI Service (
-- **문서 생성**: ReportLab (PDF), python-docx (Word), python-pptx (PowerPoint)
+  - 자원 이름 : pro-khk-openai-v01
+  - 배포 모델 : text-embedding-3-small, gpt-4.1-mini
+  **AI 서비스** : Azure AI Service 
+  - 자원 이름 : pro-khk-aiservice-v01
+  - 번역 기술, 엔터티 인식 기술(V3) skillset 지원 용도 
 
+### 1.2 주요 기술 스택
 
+![alt text](구성도.jpg)
 
 ---
 
@@ -28,13 +44,13 @@ MVP 과제명 : 신규 사업 추천 및 보고서 작성 도우미
 ### 2.1 키워드 기반 RAG 검색
 **기능 코드**: F-001
 
-**설명**: 사용자가 입력한 키워드로 Azure AI Search에서 관련 문서를 검색
+**설명**: 사용자가 입력한 키워드로 Azure AI Search에서 관련 문서를 검색 (RAG)
 
 **입력**
 - 키워드 (텍스트)
 
 **처리**
-- Azure Search Index에서 상위 5개 문서 검색
+- Azure Search Index(rag-new-test)에서 상위 5개 문서 검색
 - 검색 결과에서 제목 및 본문 추출
 
 **출력**
@@ -308,7 +324,7 @@ AZURE_OPENAI_ENDPOINT     # OpenAI 엔드포인트
 - python-docx
 - python-pptx
 
-### 4.3 폰트 파일 (PDF 생성용)
+### 4.3 폰트 파일 (PDF 생성용, 한글깨짐 방지)
 - NanumGothic-Regular.ttf
 - NanumGothic-Bold.ttf
 - NanumGothic-ExtraBold.ttf
