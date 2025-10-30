@@ -1,8 +1,0 @@
-streamlit
-python-dotenv
-azure-search-documents
-azure-core
-openai
-python-docx
-python-pptx
-fpdf2
