@@ -391,3 +391,6 @@ AZURE_OPENAI_ENDPOINT     # OpenAI 엔드포인트
 - 실시간 시장 데이터 연동
 - AI 기반 경쟁사 모니터링
 - 자동 업데이트 및 알림 기능
+
+### Azure App Service 링크
+[MAzure App Service 링크](https://pro-khk-webapp-v01-hjaycdfgbefjdmh8.eastus2-01.azurewebsites.net/)
