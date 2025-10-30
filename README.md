@@ -1,7 +1,7 @@
 # MVP_Project - by AI구독서비스팀 김형국
-MVP 과제명 : 신규 사업 추천 및 보고서 작성 도우미
-작성자 : AI구독서비스팀 김형국
-Azure Resource 그룹 : pro-khk-rg 
+- **MVP 과제명** : 신규 사업 추천 및 보고서 작성 도우미
+- **작성자**     : AI구독서비스팀 김형국
+- **Azure Resource 그룹** : pro-khk-rg 
 
  # 신규 사업 추천 및 보고서 작성 도우미 - 기능명세서
 
