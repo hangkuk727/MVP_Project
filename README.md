@@ -1,17 +1,6 @@
 # MVP_Project - by AI구독서비스팀 김형국
-KTds MS AI 과정 7기를 위한 repository 입니다.
-
-
-# TEST 야..
-
-![mcp image](./pcp.png)
-
- 링크1
- [네이버](http://www.naver.com)
- 
- 링크2
- [구글](http://google.co.kr)
-
+MVP 과제명 : 신규 사업 추천 및 보고서 작성 도우미
+작성자 : AI구독서비스팀 김형국
 
  # 신규 사업 추천 및 보고서 작성 도우미 - 기능명세서
 
@@ -23,8 +12,14 @@ KTds MS AI 과정 7기를 위한 repository 입니다.
 ### 1.2 주요 기술 스택
 - **프론트엔드**: Streamlit
 - **검색 엔진**: Azure AI Search
+  . 자원 이름 : pro-khk-search-v01
+  . RAG 검색 용도 
+  . 인덱스 및 skillset 추가 등
 - **AI 모델**: Azure OpenAI (GPT)
+  **AI 서비스** : Azure AI Service (
 - **문서 생성**: ReportLab (PDF), python-docx (Word), python-pptx (PowerPoint)
+
+
 
 ---
 
