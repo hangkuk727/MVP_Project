@@ -33,7 +33,7 @@ Azure Resource 그룹 : pro-khk-rg
   - 자원 이름 : pro-khk-aiservice-v01
   - 번역 기술, 엔터티 인식 기술(V3) skillset 지원 용도 
 
-### 1.2 주요 기술 스택
+### 1.3 기능 구성도
 
 ![alt text](구성도.jpg)
 
