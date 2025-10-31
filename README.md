@@ -35,6 +35,9 @@
   - 배포 모델 : text-embedding-3-small, gpt-4.1-mini
   - skillset 구성 : Text.SplitSkill, Text.AzureOpenAIEmbeddingSkill
 -  **AI 서비스** : Azure AI Service 
+  - 자원 이름 : pro-khk-openai-v01
+  - 배포 모델 : text-embedding-3-small, gpt-4.1-mini
+  - skillset 구성 : Text.SplitSkill, Text.AzureOpenAIEmbeddingSkill
   - 자원 이름 : pro-khk-aiservice-v01
   - 추가 skillset : Vision.OcrSkill, Text.TranslationSkill, EntityRecognitionSkill(persons, locations, organizations)
 
