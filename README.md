@@ -34,17 +34,7 @@
   - 자원 이름 : pro-khk-openai-v01
   - 배포 모델 : text-embedding-3-small, gpt-4.1-mini
   - skillset 구성 : Text.SplitSkill, Text.AzureOpenAIEmbeddingSkill
-- **스토리지 계정**: Azure Storage Account
-  - 자원 이름 : khkstorageacc 
-  - RAG를 위한 스토리지 계정, 
-  - "weekyreports" 컨테이너에 정보통신기획 평가원의 "주간기술동향" 문서 및 시장 동향 자료 구축 (총 23개 문서)
-
-
-
--  **AI 서비스** : Azure AI Service
-  - 자원 이름 : pro-khk-aiservice-v01
-  - 추가 skillset : Vision.OcrSkill, Text.TranslationSkill, EntityRecognitionSkill(persons, locations, organizations)
-
+- **AI 서비스** : Azure AI Service
   - 자원 이름 : pro-khk-aiservice-v01
   - 추가 skillset : Vision.OcrSkill, Text.TranslationSkill, EntityRecognitionSkill(persons, locations, organizations)
 
