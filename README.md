@@ -392,7 +392,8 @@ AZURE_OPENAI_ENDPOINT     # OpenAI 엔드포인트
 - 협업 기능 (공유, 댓글)
 
 ### 7.3 장기 (6-12개월)
-- 실시간 시장 데이터 연동
-- AI 기반 경쟁사 모니터링
+- <span style="color:red"><strong>실시간 시장 데이터 연동</strong></span>
+   - ㄹ아
+- <span style="color:red"><strong>AI 기반 경쟁사 모니터링</strong></span>
 - 자동 업데이트 및 알림 기능
 
