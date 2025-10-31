@@ -393,7 +393,7 @@ AZURE_OPENAI_ENDPOINT     # OpenAI 엔드포인트
 
 ### 7.3 장기 (6-12개월)
 - <span style="color:red"><strong>실시간 시장 데이터 연동</strong></span>
-   - ㄹ아
+   - 가트너 그룹 데이터 연동 등
 - <span style="color:red"><strong>AI 기반 경쟁사 모니터링</strong></span>
 - 자동 업데이트 및 알림 기능
 
